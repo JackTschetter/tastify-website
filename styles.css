@@ -1,0 +1,197 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base */
+body {
+    font-family: 'Futura', sans-serif;
+    line-height: 1.6;
+    background: #fafafa;
+    color: #333;
+    padding: 0 16px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 60px 16px 40px;
+    background: #fff;
+    border-bottom: 2px solid #eee;
+}
+
+/* Logo + Title */
+.logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #000; /* Solid black */
+    font-weight: bold;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Screenshots */
+.screenshots {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.screenshots h2 {
+    font-size: 1.8rem;
+    margin-bottom: 24px;
+    color: #222;
+}
+
+.screenshot-grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.screenshot-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    background: white;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contact a {
+    color: #4e2f8f;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #f0f0f0;
+    font-size: 0.9rem;
+    border-top: 1px solid #ddd;
+}
+
+footer a {
+    color: #555;
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+/*/* Reset */*/
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/**/
+/*/* Base */*/
+/*body {*/
+/*    font-family: 'Segoe UI', sans-serif;*/
+/*    line-height: 1.6;*/
+/*    background: #fafafa;*/
+/*    color: #333;*/
+/*    padding: 0 16px;*/
+/*}*/
+/**/
+/*/* Header */*/
+/*header {*/
+/*    text-align: center;*/
+/*    padding: 60px 16px 40px;*/
+/*    background: #fff;*/
+/*    border-bottom: 2px solid #eee;*/
+/*}*/
+/**/
+/*header h1 {*/
+/*    font-size: 2.5rem;*/
+/*    margin-bottom: 12px;*/
+/*    color: #4e2f8f;*/
+/*}*/
+/**/
+/*.tagline {*/
+/*    font-size: 1.1rem;*/
+/*    max-width: 700px;*/
+/*    margin: 0 auto;*/
+/*}*/
+/**/
+/*/* Screenshots */*/
+/*.screenshots {*/
+/*    padding: 40px 0;*/
+/*    text-align: center;*/
+/*}*/
+/**/
+/*.screenshots h2 {*/
+/*    font-size: 1.8rem;*/
+/*    margin-bottom: 24px;*/
+/*    color: #222;*/
+/*}*/
+/**/
+/*.screenshot-grid {*/
+/*    display: grid;*/
+/*    gap: 16px;*/
+/*    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
+/*    max-width: 1000px;*/
+/*    margin: 0 auto;*/
+/*    padding: 0 16px;*/
+/*}*/
+/**/
+/*.screenshot-grid img {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    border-radius: 12px;*/
+/*    box-shadow: 0 4px 12px rgba(0,0,0,0.1);*/
+/*    background: white;*/
+/*}*/
+/**/
+/*/* Contact */*/
+/*.contact {*/
+/*    text-align: center;*/
+/*    padding: 40px 0;*/
+/*}*/
+/**/
+/*.contact a {*/
+/*    color: #4e2f8f;*/
+/*    font-weight: bold;*/
+/*}*/
+/**/
+/*/* Footer */*/
+/*footer {*/
+/*    text-align: center;*/
+/*    padding: 20px 0;*/
+/*    background: #f0f0f0;*/
+/*    font-size: 0.9rem;*/
+/*    border-top: 1px solid #ddd;*/
+/*}*/
+/**/
+/*footer a {*/
+/*    color: #555;*/
+/*    margin: 0 8px;*/
+/*    text-decoration: none;*/
+/*}*/
+/**/
